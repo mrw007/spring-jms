@@ -1,0 +1,8 @@
+version: '3'
+services:
+  activemq-artemis:
+    image: vromero/activemq-artemis
+    # default username and password of artemis / simetraehcapa
+    ports:
+      - "8161:8161"
+      - "61616:61616"
